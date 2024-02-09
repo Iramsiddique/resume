@@ -1,0 +1,161 @@
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    overflow-x: hidden;
+
+}
+/* ========navbar ============ */
+#first{
+   display: flex; 
+   justify-content: space-between;
+   background-color: rgb(78, 75, 75);
+   padding: 20px 0px 20px 0px ;
+   
+}
+#second{
+    display: flex;
+    justify-content: center;
+  
+
+}
+#second div a{
+    text-decoration: none;
+    padding: 20px;
+    color: white;  
+}
+#second div a:hover{
+     color: rgb(125, 126, 24);
+}
+#first div a{
+    text-decoration: none;
+    
+    
+}
+/* ==========navbar end========== */
+/* ===========hero start======= */
+#hero{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(44, 43, 43);
+    
+}
+#hello{
+    color: white;
+    font-size: 16px;
+    margin-top: 150px;
+}
+#i{
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+}
+#ac{
+    color: white;
+    font-size: 16px;
+}
+#know{
+    background-color:orange;
+    width: 120px;
+    height: 20px;
+    padding: 5px 8px 5px 40px;
+    border-radius: 30%;
+    margin-top: 30px;
+    color: white;
+}
+#know:hover{
+    color: orange;
+    background-color: white;
+}
+/*===========end hero==============*/
+/* ==========about=========== */
+#ab{
+    background-color:  rgb(21, 20, 20);
+    display: flex;
+justify-content: center;
+
+}
+#abb{
+    margin: 40px 0px 40px 0px;
+}
+#aboutme{
+    margin: 90px 0px 40px 160px;
+}
+#about{
+    color: white;
+    font-size: 16px;
+}
+#who{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+#my{
+    color: rgb(163, 156, 156);
+}
+#box{
+    background-color:  rgb(110, 107, 107);
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+   
+}
+#htm div{
+      padding: 14px;
+}
+#cpp div{
+    padding: 14px;
+}
+#sql div{
+    padding: 14px;
+}
+#download a{
+text-decoration: none;
+color: white;
+ 
+}
+#download{
+    background-color: orange;
+    width: 116px;
+    
+    padding: 4px 6px 4px 6px;
+    margin-top: 10px;
+    border-radius: 28%;
+    
+}
+#download:hover{
+    background-color: white;
+    
+    
+}
+/* ==========about end========= */
+/* =========my service==========s */
+
+#main{
+    background-color: rgb(83, 81, 81);
+    
+    
+}
+#des{
+    display: flex;
+}
+#des div{
+    padding: 10px 10px 10px 10px ;
+    margin: 10px 10px 10px 10px;
+}
+#exp{
+    display: flex;
+
+}
+#exp div{
+    padding: 10px 10px 10px 10px ;
+    margin: 10px 10px 10px 10px;
+}
+#main{
+    
+}
+
