@@ -16,11 +16,14 @@ html{
    justify-content: space-between;
    background-color: rgb(78, 75, 75);
    padding: 20px 0px 20px 0px ;
+   position: sticky;
+   top: 0px;
    
 }
 #second{
     display: flex;
     justify-content: center;
+   
   
 
 }
@@ -113,49 +116,23 @@ justify-content: center;
 #sql div{
     padding: 14px;
 }
+#download{
+    margin-top: 20px;
+}
 #download a{
 text-decoration: none;
 color: white;
+background-color: orange;
+width: 116px;
+padding: 4px 6px 4px 6px;
+margin-top: 10px;
+border-radius: 28%;
  
 }
-#download{
-    background-color: orange;
-    width: 116px;
-    
-    padding: 4px 6px 4px 6px;
-    margin-top: 10px;
-    border-radius: 28%;
-    
-}
-#download:hover{
+#download a:hover{
     background-color: white;
+    color: orange;
     
     
 }
 /* ==========about end========= */
-/* =========my service==========s */
-
-#main{
-    background-color: rgb(83, 81, 81);
-    
-    
-}
-#des{
-    display: flex;
-}
-#des div{
-    padding: 10px 10px 10px 10px ;
-    margin: 10px 10px 10px 10px;
-}
-#exp{
-    display: flex;
-
-}
-#exp div{
-    padding: 10px 10px 10px 10px ;
-    margin: 10px 10px 10px 10px;
-}
-#main{
-    
-}
-
