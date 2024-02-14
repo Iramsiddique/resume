@@ -1,215 +1,359 @@
- @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-*{
-    font-family: 'Montserrat', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
 }
-body{
-    margin: 0px;
-    padding: 0px;
+body {
+  margin: 0px;
+  padding: 0px;
 }
-html{
-    overflow-x: hidden;
-
+html {
+  overflow-x: hidden;
 }
 /* ========navbar ============ */
-#first{
-   display: flex; 
-   justify-content: space-between;
-   background-color: rgb(78, 75, 75);
-   padding: 20px 0px 20px 0px ;
-   position: sticky;
-   top: 0px;
-   
+#first {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(78, 75, 75);
+  padding: 20px 0px 20px 0px;
+  position: sticky;
+  top: 0px;
+  overflow-x: hidden;
 }
-#second{
-    display: flex;
-    justify-content: center;
-   
-  
 
+#second {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
 }
-#second div a{
-    text-decoration: none;
-    padding: 20px;
-    color: white;  
+#second div a {
+  text-decoration: none;
+  padding: 20px;
+  color: white;
 }
-#second div a:hover{
-     color: rgb(125, 126, 24);
+#second div a:hover {
+  color: rgb(125, 126, 24);
 }
-#first div a{
-    text-decoration: none;
-    
-    
+#first div a {
+  text-decoration: none;
 }
 /* ==========navbar end========== */
 /* ===========hero start======= */
-#hero{
-    display: flex;
-    justify-content: space-evenly;
-    background-color: rgb(44, 43, 43);
-    
+#hero {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(44, 43, 43);
+  overflow-x: hidden;
 }
-#hello{
-    color: white;
-    font-size: 16px;
-    margin-top: 150px;
+@media (max-width: 425px) {
+  #hero {
+    display: block;
+  }
 }
-#i{
-    color: white;
-    font-size: 50px;
-    font-weight: 600;
+#hero1 {
+  margin: 0px;
 }
-#ac{
-    color: white;
-    font-size: 16px;
+@media (max-width: 768px) {
+  #hero1 {
+    margin: -80px 0px 0px 0px;
+  }
 }
-#know{
-    background-color:orange;
-    width: 120px;
+@media (max-width: 425px) {
+  #hero1 {
+    margin: -80px 0px 0px 40px;
+  }
+}
+
+#hello {
+  color: white;
+  font-size: 16px;
+  margin-top: 150px;
+}
+#i {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+}
+@media (max-width: 425px) {
+  #i {
+    font-size: 40px;
+  }
+}
+#ac {
+  color: white;
+  font-size: 16px;
+}
+#know {
+  background-color: orange;
+  width: 120px;
+  height: 20px;
+  padding: 5px 8px 5px 40px;
+  margin-top: 20px;
+
+  color: white;
+}
+@media (max-width: 425px) {
+  #know {
+    width: 100px;
     height: 20px;
-    padding: 5px 8px 5px 40px;
-    border-radius: 30%;
-    margin-top: 30px;
-    color: white;
+    padding: 4px 8px 4px 20px;
+    margin-top: 15px;
+  }
 }
-#know:hover{
-    color: orange;
-    background-color: white;
+#know:hover {
+  color: orange;
+  background-color: white;
 }
+#image {
+  margin: 0px;
+}
+@media (max-width: 768px) {
+  #image {
+    margin: 0px -80px 0px 0px;
+  }
+}
+@media (max-width: 425px) {
+  #image {
+    width: 220px;
+    margin: 25px 0px 20px 36px;
+  }
+}
+
 /*===========end hero==============*/
 /* ==========about=========== */
-#ab{
-    background-color:  rgb(21, 20, 20);
-    display: flex;
-justify-content: center;
+#ab {
+  background-color: rgb(21, 20, 20);
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  margin: 0px;
+}
+@media (max-width: 425px) {
+  #ab {
+    display: block;
 
+    margin: 0px;
+  }
 }
-#abb{
-    margin: 40px 0px 40px 0px;
+
+#abb {
+  margin: 40px 0px 40px 0px;
 }
-#aboutme{
-    margin: 90px 0px 40px 160px;
+@media (max-width: 425px) {
+  #abb {
+    margin: 40px 0px -40px 0px;
+  }
 }
-#about{
-    color: white;
-    font-size: 16px;
+@media (max-width: 425px) {
+  #abb img {
+    width: 200px;
+    height: 240px;
+    margin: -15px 0px -35px 110px;
+  }
 }
-#who{
-    color: white;
-    font-size: 20px;
-    font-weight: 600;
+#aboutme {
+  margin: 70px 0px 40px 160px;
+  overflow-x: hidden;
 }
-#my{
-    color: rgb(163, 156, 156);
+@media (max-width: 768px) {
+  #aboutme {
+    margin: 70px 0px 40px 20px;
+  }
 }
-#box{
-    background-color:  rgb(110, 107, 107);
+@media (max-width: 425px) {
+  #aboutme {
+    margin: 90px 0px 40px 20px;
+    padding: 30px 0px 0px 40px;
+  }
+}
+
+#about {
+  color: white;
+  font-size: 16px;
+}
+@media (max-width: 425px) {
+  #about {
+    font-size: 14px;
+    margin: -10px 0px 10px 110px;
+  }
+}
+#who {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+@media (max-width: 425px) {
+  #who {
+    display: none;
+  }
+}
+#my {
+  color: rgb(163, 156, 156);
+}
+@media (max-width: 425px) {
+  #my {
+    font-size: 12px;
+    padding-left: 50px;
+  }
+}
+#box {
+  background-color: rgb(110, 107, 107);
+  padding: 10px 10px 10px 10px;
+  margin: 20px 0px 0px 0px;
+  overflow-x: hidden;
+}
+@media (max-width: 425px) {
+  #box {
     padding: 10px 10px 10px 10px;
-    margin-top: 20px;
-   
+    margin: 20px 0px 0px 50px;
+    width: 220px;
+  }
 }
-#htm div{
-      padding: 14px;
+
+#htm div {
+  padding: 14px;
 }
-#cpp div{
-    padding: 14px;
+#cpp div {
+  padding: 14px;
 }
-#sql div{
-    padding: 14px;
+#sql div {
+  padding: 14px;
 }
-#download{
-    margin-top: 20px;
+#download {
+  margin: 20px 0px 0px 0px;
 }
-#download a{
-text-decoration: none;
-color: white;
-background-color: orange;
-width: 116px;
-padding: 4px 6px 4px 6px;
-margin-top: 10px;
-border-radius: 28%;
- 
+@media (max-width: 425px) {
+  #download {
+    margin: 20px 0px 10px 50px;
+  }
 }
-#download a:hover{
-    background-color: white;
-    color: orange;
-    
-    
+#download a {
+  text-decoration: none;
+  color: white;
+  background-color: orange;
+  width: 116px;
+  padding: 6px 8px 10px 8px;
+}
+@media (max-width: 425px) {
+  #download a {
+    width: 106px;
+    padding: 6px 8px 6px 8px;
+  }
+}
+#download a:hover {
+  background-color: white;
+  color: orange;
 }
 /* ==========about end========= */
 /*=============contact me=======*/
-#main{
-    background-color: rgb(44, 43, 43); 
-    display: flex;
-    justify-content: space-around;
-    
+#main {
+  background-color: rgb(44, 43, 43);
+  display: flex;
+  justify-content: space-around;
+  overflow-x: hidden;
 }
-#contact{
-    color: brown;
+@media (max-width: 425px) {
+  #main {
+    display: block;
+  }
+}
+#con {
+  padding: 0px;
+}
+@media (max-width: 425px) {
+  #con {
+    padding: 10px 10px 10px 40px;
+  }
+}
+#contact {
+  color: brown;
+  font-size: 20px;
+  padding-top: 30px;
+}
+#one {
+  color: white;
+  padding: 20px 0px 30px 0px;
+  font-size: 48px;
+  font-weight: 700;
+}
+@media (max-width: 425px) {
+  #one {
+    padding: 10px 0px 10px 0px;
+    font-size: 32px;
+  }
+}
+#number {
+  margin: 20px 0px 15px 0px;
+}
+#number a {
+  font-size: 30px;
+  color: white;
+}
+@media (max-width: 425px) {
+  #number a {
     font-size: 20px;
-    padding-top:30px ;
-}
-#one{
     color: white;
-    padding: 20px 0px 30px 0px;
-    font-size: 48px;
-    font-weight: 700;
-    
+  }
 }
-#number{
-    margin: 20px 0px 15px 0px;
+#mail {
+  margin: 20px 0px 0px 0px;
 }
-#number a{
-    font-size: 30px;
+@media (max-width: 425px) {
+  #mail {
+    margin: 10px 0px 0px 0px;
+  }
+}
+#mail a {
+  font-size: 30px;
+  color: white;
+}
+@media (max-width: 425px) {
+  #mail a {
+    font-size: 20px;
     color: white;
-
+  }
 }
-#mail{
-    
-    margin: 20px 0px0px 0px;
+#kuchnhi {
+  background-color: white;
+  margin: 30px 0px 30px 0px;
+  padding: 20px 10px 20px 10px;
+  overflow-x: hidden;
 }
-#mail a{
-    font-size: 30px;
-    color: white;
-    
-    
-}
-#kuchnhi{
-    background-color: white;
+@media (max-width: 425px) {
+  #kuchnhi {
     margin: 30px 0px 30px 0px;
-    padding: 20px 10px 20px 10px;
-    
+    padding: 10px 0px 10px 40px;
+  }
 }
-input[type="text"],input[type="email"]{
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
-    font-size: 20px;
-    border: 2px solid black;
-    box-shadow: 0px 0px 50px  rgb(145, 126, 126);
+input[type="text"],
+input[type="email"] {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 50px rgb(145, 126, 126);
 }
-textarea{
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
-    font-size: 20px;
-    border: 2px solid black;
-    box-shadow: 0px 0px 50px rgb(145, 126, 126) ;
+textarea {
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  box-shadow: 0px 0px 50px rgb(145, 126, 126);
 }
 #button {
-    border: 2px solid black;
-    width: 300px;
-    padding: 10px;
-    margin: 10px;
-    font-size: 20px;
-    background-color: aqua;
-    
+  border: 2px solid black;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  background-color: aqua;
 }
-#button a{
-    text-decoration: none;
-    color: rgb(46, 45, 45);
-    
+#button a {
+  text-decoration: none;
+  color: rgb(46, 45, 45);
 }
-#button:hover{
-    color: aqua;
-    background-color: silver;
+#button:hover {
+  color: aqua;
+  background-color: silver;
 }
