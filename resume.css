@@ -36,6 +36,34 @@ html {
 #first div a {
   text-decoration: none;
 }
+#bars {
+  font-size: 40px;
+  display: none;
+  position: relative;
+  right: 20px;
+  padding: 20px;
+  overflow-x: hidden;
+  /* float: right; */
+}
+@media (max-width: 1041px) {
+  #first {
+    display: none;
+  }
+  #first div a {
+    display: none;
+  }
+  #bars {
+    display: block;
+    position: relative;
+    z-index: 2;
+  }
+  #input1:checked ~ #first div a {
+    display: none;
+  }
+  #input1:checked ~ #first #second {
+    display: block;
+  }
+}
 /* ==========navbar end========== */
 /* ===========hero start======= */
 #hero {
