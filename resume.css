@@ -87,7 +87,7 @@ html {
   width: 120px;
   height: 20px;
   padding: 5px 8px 5px 40px;
-  margin-top: 20px;
+  margin: 20px 0px 200px 0px;
 
   color: white;
 }
@@ -244,12 +244,217 @@ html {
   color: orange;
 }
 /* ==========about end========= */
+/* ===============service=========== */
+#ser {
+  font-size: 24px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  padding: 80px;
+}
+
+#service {
+  background-color: rgb(110, 107, 107);
+
+  overflow-x: hidden;
+}
+
+#mainweb {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+#mainweb div {
+  margin: 30px;
+}
+#mainweb div:hover {
+  background-color: rgb(39, 24, 45);
+  color: white;
+}
+#webdesign {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+  padding: 20px;
+}
+#des {
+  font-size: 32px;
+  font-weight: 700;
+}
+#mainweb div i {
+  font-size: 40px;
+}
+#business {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+}
+#bus {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+#graphic {
+  border: 1px solid rgb(0, 0, 0);
+  background-color: white;
+}
+#gra {
+  font-size: 32px;
+  font-weight: 700;
+}
+@media (max-width: 768px) {
+  #ser {
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  #mainweb div {
+    margin: 15px;
+  }
+  #mainweb div i {
+    font-size: 30px;
+  }
+  #webdesign {
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    padding: 10px;
+  }
+  #des {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #bus {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  #gra {
+    font-size: 16px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 425px) {
+  #mainweb {
+    display: block;
+    justify-content: center;
+    margin: 30px;
+  }
+}
+
+/* ================service end====== */
+
+/* =================portfolio ================= */
+
+#portfolio {
+  margin-top: 300px;
+  background-color: whitesmoke;
+  margin-top: 0px;
+  overflow-x: hidden;
+}
+
+#port {
+  font-size: 32px;
+  font-weight: 700;
+  padding: 60px;
+}
+
+#images {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 100px;
+  padding-bottom: 40px;
+}
+
+#images div img {
+  width: 330px;
+}
+
+#image1 {
+  width: 340px;
+}
+#image1:hover {
+  border: 2px solid black;
+}
+#image2 {
+  width: 340px;
+}
+#image2:hover {
+  border: 2px solid black;
+}
+#image3 {
+  width: 340px;
+}
+#image3:hover {
+  border: 2px solid black;
+}
+#image4 {
+  width: 340px;
+}
+#image4:hover {
+  border: 2px solid black;
+}
+#image5 {
+  width: 340px;
+}
+#image5:hover {
+  border: 2px solid black;
+}
+#image6 {
+  width: 340px;
+}
+#image6:hover {
+  border: 2px solid black;
+}
+#image7 {
+  width: 340px;
+}
+#image7:hover {
+  border: 2px solid black;
+}
+#image8 {
+  width: 340px;
+}
+#image8:hover {
+  border: 2px solid black;
+}
+#image9 {
+  width: 340px;
+}
+#image9:hover {
+  border: 2px solid black;
+}
+@media (max-width: 1024px) {
+  #images {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 0px;
+  }
+}
+@media (max-width: 768px) {
+  #images {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 30px;
+  }
+}
+@media (max-width: 425px) {
+  #images {
+    display: grid;
+    grid-template-columns: auto;
+    margin-left: 40px;
+  }
+}
+/* =======portfolio end========== */
 /*=============contact me=======*/
 #main {
   background-color: rgb(44, 43, 43);
   display: flex;
   justify-content: space-around;
   overflow-x: hidden;
+}
+@media (max-width: 768px) {
+  #main {
+    margin-top: 0px;
+  }
 }
 @media (max-width: 425px) {
   #main {
@@ -357,3 +562,4 @@ textarea {
   color: aqua;
   background-color: silver;
 }
+/* ==========contact end============ */
